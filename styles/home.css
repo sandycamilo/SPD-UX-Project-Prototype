@@ -2,8 +2,12 @@ body {
     background-color: antiquewhite; 
 }
 
-.navbar-brand{
-    color: aquamarine;
+
+.carousel-caption {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
 }
 
 .slides-inner {

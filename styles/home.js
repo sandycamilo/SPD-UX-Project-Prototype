@@ -45,7 +45,7 @@
 
     setInterval(function() {
         nextSlide()
-    }, 3000)
+    }, 5000)
     
 
     }) ()

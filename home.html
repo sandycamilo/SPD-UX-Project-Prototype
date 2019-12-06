@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HOME - play & learn</title>
+        <title>HOME - PLAY & LEARN</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/home.css">
         <style>
@@ -29,17 +29,17 @@
                 <div class="slide-item ">
                     <img src="images/kidscooking.png" width="1200" height="auto" alt="kidscooking">
                     <div class="slide-layout">
-                        <button class="btn btn-warning" href="#sign-in">c r e a t e  <br> a c c o u n t</button>
+                        <!-- <button class="btn btn-light" href="#create">c r e a t e &nbsp;&nbsp; a c c o u n t</button>
+                        <button class="btn btn-light" href="#sign-in" action="/profile.html">s i g n &nbsp;&nbsp;  i n</button> -->
                     </div>
                 </div>
 
                 <div class="slide-item">
                     <img src="images/kids.png" width="1200" height="auto" at="kidsplaying">
                     <div class="slide-layout-2">
-                        <button class="btn btn-warning" href="#sign-in">s i g n <br> i n</button>
-                    </div>
+                        
+                    </div> 
                 </div>
-
             </div>
 
             <a href="#" class="play-next-button"></a>
@@ -50,9 +50,12 @@
         <!-- NAV BAR -->
         <nav class="navbar fixed-bottom navbar-dark bg-primary">
             <a class="navbar-brand" href="#!">p l a y & l e a r n</a>
-            <button class="btn btn-warning" href="#about">h o w i t w o r k s</button>
+            <div role="group">
+                <a class="btn btn-light" class="nav-link" href="about.html">a b o u t</a>
+                <a class="btn btn-light" href="#create">c r e a t e &nbsp;&nbsp;a c c o u n t</a>
+                <a class="btn btn-light" href="profile.html">s i g n &nbsp;&nbsp;i n</a>
+            </div>
         </nav>
-
         <script src="styles/home.js"></script>
     </body>
 </html>

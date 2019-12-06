@@ -1,8 +1,9 @@
 .card {
-    width: 35%;
-    border-radius: 9px;
-    transition: 0.3s;
-    align-content: flex-end;
+    align-items: center;
+    height: auto;
+    width: 580px;
+    height: 450px;
+    justify-content: center;
 }
 
 .container {
@@ -10,6 +11,16 @@
     height: 1000px;
     width: 800px;
     background-color: linen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 img {
@@ -18,4 +29,7 @@ img {
 
 .buttons {
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

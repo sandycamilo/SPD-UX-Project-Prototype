@@ -1,17 +1,21 @@
 .card {
-    width: 20%;
-    border-radius: 5px;
+    width: 35%;
+    border-radius: 9px;
     transition: 0.3s;
     align-content: flex-end;
 }
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
 
 .container {
-    padding: 2px 16px;
+    padding: 16px 16px;
+    height: 1000px;
+    width: 800px;
+    background-color: linen;
 }
 
 img {
     border-radius: 5px 5px 0 0;
+}
+
+.buttons {
+    background-color: whitesmoke;
 }

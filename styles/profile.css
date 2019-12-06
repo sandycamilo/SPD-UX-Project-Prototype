@@ -42,3 +42,7 @@ img {
     flex-direction: column;
     text-align: center;
 }
+
+.btn {
+    background-color: yellow;
+}

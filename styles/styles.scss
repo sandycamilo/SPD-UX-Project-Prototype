@@ -1,0 +1,203 @@
+/* about */
+.container {
+    padding: 2px 16px;
+    height: 800px;
+    width: 1200;
+    margin: auto;
+    background-color: bisque;
+   
+}
+
+/* create account  */
+.container {
+    padding: 100px 100px;
+    height: 1000px;
+    width: 800px;
+    background-color: white;
+    text-align: center;
+    text-justify: auto;
+}
+
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    background-color: yellow;
+}
+
+/* home */
+
+body {
+    background-color:white; 
+}
+
+.slide-layout {
+    position: relative;
+    top: -782px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide-layout-2 {
+    position: relative;
+    top: -1048px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-caption {
+    display: flex;
+    height: 100%;
+    font-size: 20px;
+}
+
+.slides-inner {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    transform: translate3d(0, 0, 0);
+    transition: 1000ms;
+}
+
+.play-slide-show {
+    overflow: hidden;
+    position: relative;
+}
+
+.play-next-button, .play-previous-button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;;
+    background-color:rgba(255,255,255,0.5);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-next-button {
+    right: 1em;
+}
+
+.play-next-button::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+    transform: rotate(45deg);
+}
+
+.play-previous-button {
+    left: 1em;
+}
+
+.play-previous-button::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 4px solid #fff;
+    border-left: 4px solid #fff;
+    transform: rotate(45deg);
+}
+
+/* profile */
+
+.card {
+    align-items: center;
+    height: auto;
+    width: 480px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 1000px;
+    width: 800px;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+
+img {
+    border-radius: 5px 0px 0 0;
+}
+
+.buttons {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.player-info {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn {
+    background-color: yellow;
+}
+
+/* sign in */
+
+.container {
+    padding: 100px 100px;
+    height: 1000px;
+    width: 800px;
+    background-color: white;
+    text-align: center;
+    text-justify: auto;
+}
+
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    background-color: yellow;
+}
+
+/* sign out */
+
+.container {
+    padding: 100px 100px;
+    height: 1000px;
+    width: 800px;
+    background-color: white;
+    text-align: center;
+    text-justify: auto;
+}
+
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    background-color: yellow;
+}

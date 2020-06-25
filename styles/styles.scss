@@ -1,51 +1,58 @@
+$buttoncolor: whitesmoke;
+$height: 800px;
+$backgroundcolor: #eee;
+$buttonsize: 10px;
+$padding: 20px;
+$flexdirection: column;
+
+
 /* about */
 .container {
     padding: 2px 16px;
-    height: 800px;
+    height: $height;
     width: 1200;
     margin: auto;
-    background-color: bisque;
-   
+    background-color: $backgroundcolor;
 }
 
 /* create account  */
 .container {
     padding: 100px 100px;
-    height: 1000px;
-    width: 800px;
-    background-color: white;
+    height: $height + 200;
+    width: $height;
+    background-color: $backgroundcolor;
     text-align: center;
     text-justify: auto;
 }
 
 .sign-in-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: $flexdirection;
     justify-content: center;
 }
 
 .btn {
-    background-color: yellow;
+    background-color: $buttoncolor;
 }
 
 /* home */
 
 body {
-    background-color:white; 
+    background-color: white; 
 }
 
 .slide-layout {
     position: relative;
     top: -782px;
     display: flex;
-    flex-direction: column;
+    flex-direction: $flexdirection;
 }
 
 .slide-layout-2 {
     position: relative;
     top: -1048px;
     display: flex;
-    flex-direction: column;
+    flex-direction: $flexdirection;
 }
 
 .carousel-caption {
@@ -88,10 +95,10 @@ body {
 .play-next-button::after {
     content: '';
     display: block;
-    width: 10px;
-    height: 10px;
-    border-top: 4px solid #fff;
-    border-right: 4px solid #fff;
+    width: $buttonsize;
+    height: $buttonsize;
+    border-top: 4px solid $backgroundcolor;
+    border-right: 4px solid $backgroundcolor;
     transform: rotate(45deg);
 }
 
@@ -102,10 +109,10 @@ body {
 .play-previous-button::after {
     content: '';
     display: block;
-    width: 10px;
-    height: 10px;
-    border-bottom: 4px solid #fff;
-    border-left: 4px solid #fff;
+    width: $buttonsize;
+    height: $buttonsize;
+    border-bottom: 4px solid $backgroundcolor;
+    border-left: 4px solid $backgroundcolor;
     transform: rotate(45deg);
 }
 
@@ -120,22 +127,12 @@ body {
     justify-content: center;
 }
 
-.container {
-    height: 1000px;
-    width: 800px;
-    background-color:whitesmoke;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .card-btn {
-    padding: 20px;
+    padding: $padding;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: white;
+    background-color: $backgroundcolor;
 }
 
 img {
@@ -143,61 +140,16 @@ img {
 }
 
 .buttons {
-    padding: 20px;
+    padding: $padding;
     display: flex;
-    flex-direction: column;
+    flex-direction: $flexdirection;
     justify-content: space-around;
 }
 
 .player-info {
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: $flexdirection;
     text-align: center;
 }
 
-.btn {
-    background-color: yellow;
-}
-
-/* sign in */
-
-.container {
-    padding: 100px 100px;
-    height: 1000px;
-    width: 800px;
-    background-color: white;
-    text-align: center;
-    text-justify: auto;
-}
-
-.sign-in-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.btn {
-    background-color: yellow;
-}
-
-/* sign out */
-
-.container {
-    padding: 100px 100px;
-    height: 1000px;
-    width: 800px;
-    background-color: white;
-    text-align: center;
-    text-justify: auto;
-}
-
-.sign-in-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.btn {
-    background-color: yellow;
-}
